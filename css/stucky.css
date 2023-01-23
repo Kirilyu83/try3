@@ -1,0 +1,35 @@
+* {
+    box-sizing: border-box;
+}
+.welcome {
+    background-color: blue;
+    width: 100%;
+    height: 50px;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+}
+nav {
+    background-color: green;
+    height: 50px;
+    position: sticky;
+    top: 0;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+}
+footer {
+    background-color: yellow;
+    width: 100%;
+    height: 50px;
+    position: fixed;
+    bottom: 0;
+    text-align: center;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+}
+p {
+    direction: rtl;
+    text-align: center;
+}
